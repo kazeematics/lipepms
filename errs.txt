@@ -1,0 +1,40 @@
+In file included from C:\PaxPayPro2010\myapp\paxnibsslib\iso8583\Source\/..\include\dl_iso8583.h:32,
+                 from C:\PaxPayPro2010\myapp\paxnibsslib\iso8583\Source\dl_iso8583.c:29:
+C:\PaxPayPro2010\myapp\paxnibsslib\iso8583\Source\/..\include\/..\include\dl_base.h:32:19: error: stdio.h: No such file or directory
+C:\PaxPayPro2010\myapp\paxnibsslib\iso8583\Source\/..\include\/..\include\dl_base.h:33:20: error: stdlib.h: No such file or directory
+C:\PaxPayPro2010\myapp\paxnibsslib\iso8583\Source\/..\include\/..\include\dl_base.h:34:20: error: stdarg.h: No such file or directory
+In file included from C:\PaxPayPro2010\myapp\paxnibsslib\iso8583\Source\/..\include\/..\include\dl_str.h:34,
+                 from C:\PaxPayPro2010\myapp\paxnibsslib\iso8583\Source\/..\include\dl_iso8583.h:34,
+                 from C:\PaxPayPro2010\myapp\paxnibsslib\iso8583\Source\dl_iso8583.c:29:
+C:\PaxPayPro2010\myapp\paxnibsslib\iso8583\Source\/..\include\/..\include\/..\include\dl_mem.h:31:20: error: string.h: No such file or directory
+In file included from C:\PaxPayPro2010\myapp\paxnibsslib\iso8583\Source\/..\include\/..\include\dl_str.h:34,
+                 from C:\PaxPayPro2010\myapp\paxnibsslib\iso8583\Source\/..\include\dl_iso8583.h:34,
+                 from C:\PaxPayPro2010\myapp\paxnibsslib\iso8583\Source\dl_iso8583.c:29:
+C:\PaxPayPro2010\myapp\paxnibsslib\iso8583\Source\/..\include\/..\include\/..\include\dl_mem.h:67: error: expected declaration specifiers or '...' before 'size_t'
+In file included from C:\PaxPayPro2010\myapp\paxnibsslib\iso8583\Source\dl_iso8583.c:29:
+C:\PaxPayPro2010\myapp\paxnibsslib\iso8583\Source\/..\include\dl_iso8583.h:119: error: expected ')' before '*' token
+C:\PaxPayPro2010\myapp\paxnibsslib\iso8583\Source\dl_iso8583.c: In function 'DL_ISO8583_MSG_Init':
+C:\PaxPayPro2010\myapp\paxnibsslib\iso8583\Source\dl_iso8583.c:39: warning: incompatible implicit declaration of built-in function 'memset'
+C:\PaxPayPro2010\myapp\paxnibsslib\iso8583\Source\dl_iso8583.c:39: error: 'size_t' undeclared (first use in this function)
+C:\PaxPayPro2010\myapp\paxnibsslib\iso8583\Source\dl_iso8583.c:39: error: (Each undeclared identifier is reported only once
+C:\PaxPayPro2010\myapp\paxnibsslib\iso8583\Source\dl_iso8583.c:39: error: for each function it appears in.)
+C:\PaxPayPro2010\myapp\paxnibsslib\iso8583\Source\dl_iso8583.c: In function 'DL_ISO8583_MSG_Free':
+C:\PaxPayPro2010\myapp\paxnibsslib\iso8583\Source\dl_iso8583.c:55: error: 'NULL' undeclared (first use in this function)
+C:\PaxPayPro2010\myapp\paxnibsslib\iso8583\Source\dl_iso8583.c:67: warning: incompatible implicit declaration of built-in function 'memset'
+C:\PaxPayPro2010\myapp\paxnibsslib\iso8583\Source\dl_iso8583.c:67: error: 'size_t' undeclared (first use in this function)
+C:\PaxPayPro2010\myapp\paxnibsslib\iso8583\Source\dl_iso8583.c: In function 'DL_ISO8583_MSG_SetField_Bin':
+C:\PaxPayPro2010\myapp\paxnibsslib\iso8583\Source\dl_iso8583.c:104: error: 'NULL' undeclared (first use in this function)
+C:\PaxPayPro2010\myapp\paxnibsslib\iso8583\Source\dl_iso8583.c:114: warning: incompatible implicit declaration of built-in function 'memcpy'
+C:\PaxPayPro2010\myapp\paxnibsslib\iso8583\Source\dl_iso8583.c:114: error: 'size_t' undeclared (first use in this function)
+C:\PaxPayPro2010\myapp\paxnibsslib\iso8583\Source\dl_iso8583.c: In function 'DL_ISO8583_MSG_HaveField':
+C:\PaxPayPro2010\myapp\paxnibsslib\iso8583\Source\dl_iso8583.c:129: error: 'NULL' undeclared (first use in this function)
+C:\PaxPayPro2010\myapp\paxnibsslib\iso8583\Source\dl_iso8583.c: In function 'DL_ISO8583_MSG_GetField_Str':
+C:\PaxPayPro2010\myapp\paxnibsslib\iso8583\Source\dl_iso8583.c:151: error: 'NULL' undeclared (first use in this function)
+C:\PaxPayPro2010\myapp\paxnibsslib\iso8583\Source\dl_iso8583.c: In function 'DL_ISO8583_MSG_GetField_Bin':
+C:\PaxPayPro2010\myapp\paxnibsslib\iso8583\Source\dl_iso8583.c:178: error: 'NULL' undeclared (first use in this function)
+C:\PaxPayPro2010\myapp\paxnibsslib\iso8583\Source\dl_iso8583.c: In function 'DL_ISO8583_MSG_Pack':
+C:\PaxPayPro2010\myapp\paxnibsslib\iso8583\Source\dl_iso8583.c:210: error: 'NULL' undeclared (first use in this function)
+C:\PaxPayPro2010\myapp\paxnibsslib\iso8583\Source\dl_iso8583.c: At top level:
+C:\PaxPayPro2010\myapp\paxnibsslib\iso8583\Source\dl_iso8583.c:273: error: expected ')' before '*' token
+NMAKE : fatal error U1077: 'C:\PAXPAY~1\build\gcc410\bin\arm-elf-gcc' : return code '0x1'
+Stop.

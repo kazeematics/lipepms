@@ -1,0 +1,10 @@
+./javah -jni -cp /home/byteworks/Desktop com.besl.nibss.epms.ISO8583
+
+
+gcc -fPIC -shared -o /home/byteworks/Desktop/epms/libepms.so /home/byteworks/Desktop/epms/*.c
+
+
+gcc -fPIC -shared -o /home/byteworks/Desktop/twotx/libtwotx.so /home/byteworks/Desktop/twotx/*.c
+
+
+java -cp /home/byteworks/Desktop/EPMSLib-1.0.jar com.besl.nibss.epms.ISO8583
